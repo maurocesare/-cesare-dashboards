@@ -41,7 +41,7 @@
 
 <script>
 function aggiornaDati() {
-    fetch("http://IP-ARDUINO/data")
+    fetch("http://10.29.142.46/")
         .then(response => response.json())
         .then(data => {
             document.getElementById("lux").textContent = data.lux;
